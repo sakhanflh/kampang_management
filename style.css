@@ -483,8 +483,8 @@ nav div img {
 /* Section Story */
 #story {
     width: 100%;
-    height: 100vh;
-    
+    height: 200vh;
+    margin-top: 60px;
 }
 .nav-story {
     width: 100%;
@@ -558,17 +558,20 @@ nav div img {
     width: 100%;
     height: 500px;
     margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
 }
 .ruebe {
     width: 260px;
     height: 400px;
     display: flex;
-    border: 5px solid rgb(99, 98, 98);
+    border-left: 10px solid rgb(19, 19, 19);
+    border-right: 10px solid rgb(19, 19, 19);
+    background-color: rgb(19, 19, 19);
     flex-direction: column;
     align-items: center ;
     gap: 15px;
-    background-color: rgb(99, 98, 98);
-    border-radius: 30px;
+    border-radius: 0 0 30px 30px;
 }
 
 
@@ -587,7 +590,44 @@ nav div img {
 .business-desc p:last-child {
     text-align: start;
 }
+/* Bisnis Kedua */
+
+.goldchick {
+    width: 260px;
+    height: 400px;
+    display: flex;
+    border-left: 10px solid rgb(19, 19, 19);
+    border-right: 10px solid rgb(19, 19, 19);
+    background-color: rgb(19, 19, 19);
+    border-radius: 0 0 30px 30px;
+    flex-direction: column;
+    align-items: center ;
+    gap: 15px;
+}
+
+
+.goldchick-img {
+    width: 220px;
+    height: 220px;
+}
+.goldchick-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.goldchick-desc {
+    text-align: center;
+}
+.goldchick-desc p:last-child {
+    text-align: start;
+}
 /* busines-story end */
-/* What we do recently? */
+/* Nongkrong*/
+.nongkrong-container {
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+}
+/* Nongkrong End*/
 /* Section Story End */
 /* MAIN End */
