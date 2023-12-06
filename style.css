@@ -27,16 +27,15 @@ nav {
     z-index: 999;
     box-sizing: border-box;
     transition: 0.7s;
-    background-color: red;
     color: white;
 }
 
 nav.nav-active {
-    background-color: rgb(255, 255, 255);
+    background-image: url(img/bg-luarangkasa-opsiterakhir);
     border-radius: 50px;
     color: black;
     height: 70px;
-    box-shadow: 2px 2px 10px #c5c5c5;
+    box-shadow: 2px 2px 10px #252525;
     width: 90%;
     margin-left: 70px;
     margin-top: 10px;
@@ -76,7 +75,7 @@ nav div img {
 
 .card {
     width: 250px;
-    height: 300px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -84,116 +83,125 @@ nav div img {
     transition: 0.5s;
     border-radius: 10px;
 }
-.card:hover {
-    width: 300px;
+.card-wrapper {
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+.card-wrapper:hover {
+    width: 250px;
     height: 450px;
-    background-color: #F4CE14;
+    border: 10px solid white;
+    border-radius: 10px 10px 30px 30px;
+    background-color: white;
+}
+.card-wrapper:hover .imgbox img{
+    width: 250px;
+    height: 250px;
+}
+.card-wrapper:hover .desc p {
+    display: inline-block;
+    color: black;
+}
+.card-wrapper:hover .desc h1 {
+    color: black;
 }
 
 .imgbox {
     display: flex;
     position: relative;
-    transform: translateY(100);
     transition: 0.5s;
 }
 .imgbox img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     transition: 0.5s;
 }
-.imgbox img:hover {
-    width: 300px;
-    height: 300px;
-}
+
 .desc {
     text-align: center;
+    transition: 0.5s;
 }
 .desc h1 {
     color: #F4CE14;
     transition: 0.5s;
 }
-.desc:hover {
-    color: black;
-}
-.card:hover .desc h1 {
-    color: black;
-}
+
+
 .desc p {
     display: none;
     text-align: start;
     padding-top: 10px;
+    transition: 0.5s;
 }
 
-.card:hover .desc p {
-    display: inline-block;
-    color: black;
-}
-
-.card .desc p:hover .imgbox img {
-    width: 350px;
-    height: 300px;
-}
 
 /* Card 2 */
 .card-2 {
-    width: 250px;
-    height: 300px;
+    width: 450px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     position: relative;
     cursor: pointer;
     transition: 0.5s;
-    border-radius: 10px;
-    margin-left: 350px;
+    margin-left: 300px;
+    margin-top: -200px;
 }
-.card-2:hover {
-    width: 300px;
-    height: 450px;
-    background-color: #F4CE14;
+.card-wrapper-2 {
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    display: flex;
+    background-color: white;
+}
+.card-wrapper-2:hover {
+    width: 450px;
+    height: 250px;
+    border: 10px solid white;
+    border-radius: 10px 30px 30px 10px;
+}
+.card-wrapper-2:hover .imgbox-2 img{
+    width: 250px;
+    height: 250px;
+}
+.card-wrapper-2:hover .desc-2 p {
+    display: inline-block;
+    color: black;
+}
+.card-wrapper-2:hover .desc-2 h1 {
+    display: inline-block;
+    color: black;
 }
 
 .imgbox-2 {
     display: flex;
     position: relative;
-    transform: translateY(100);
     transition: 0.5s;
 }
 .imgbox-2 img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     transition: 0.5s;
 }
-.imgbox-2 img:hover {
-    width: 300px;
-    height: 300px;
-}
+
 .desc-2 {
     text-align: center;
+    transition: 0.5s;
+    padding-left: 10px;
 }
 .desc-2 h1 {
     color: #F4CE14;
     transition: 0.5s;
+    display: none;
 }
-.desc-2:hover {
-    color: black;
-}
-.card-2:hover .desc-2 h1 {
-    color: black;
-}
+
+
 .desc-2 p {
     display: none;
-    text-align: start;
     padding-top: 10px;
-}
-
-.card-2:hover .desc-2 p {
-    display: inline-block;
-    color: black;
-}
-
-.card-2 .desc-2 p:hover .imgbox-2 img {
-    width: 350px;
-    height: 300px;
+    transition: 0.5s;
+    text-align: start;
 }
 
 /* Home Section End */
