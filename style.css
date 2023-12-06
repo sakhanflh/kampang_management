@@ -146,7 +146,7 @@ nav div img {
     cursor: pointer;
     transition: 0.5s;
     margin-left: 300px;
-    margin-top: -200px;
+    margin-top: -220px;
 }
 .card-wrapper-2 {
     width: 200px;
@@ -203,7 +203,174 @@ nav div img {
     transition: 0.5s;
     text-align: start;
 }
+/* Card 2 End */
 
+/* Card 3 */
+.card-3 {
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 550px;
+    margin-top: -452px;
+    z-index: 999;
+}
+.card-wrapper-3 {
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    display: flex;
+    background-color: white;
+}
+.card-wrapper-3:hover {
+    width: 450px;
+    height: 250px;
+    border: 10px solid white;
+    border-radius: 10px 30px 30px 10px;
+}
+.card-wrapper-3:hover .imgbox-3 img{
+    width: 250px;
+    height: 250px;
+}
+.card-wrapper-3:hover .desc-3 p {
+    display: inline-block;
+    color: black;
+}
+.card-wrapper-3:hover .desc-3 h1 {
+    display: inline-block;
+    color: black;
+}
+
+.imgbox-3 {
+    display: flex;
+    position: relative;
+    transition: 0.5s;
+}
+.imgbox-3 img {
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.desc-3 {
+    text-align: center;
+    transition: 0.5s;
+    padding-left: 10px;
+}
+.desc-3 h1 {
+    color: #F4CE14;
+    transition: 0.5s;
+    display: none;
+}
+
+
+.desc-3 p {
+    display: none;
+    padding-top: 10px;
+    transition: 0.5s;
+    text-align: start;
+}
+
+/* Card 4 */
+.card-4 {
+    width: 250px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin-left: 1040px;
+    margin-top: -260px;
+}
+.card-wrapper-4 {
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+.card-wrapper-4:hover {
+    width: 250px;
+    height: 450px;
+    border: 10px solid white;
+    border-radius: 10px 10px 30px 30px;
+    background-color: white;
+}
+.card-wrapper-4:hover .imgbox-4 img{
+    width: 250px;
+    height: 250px;
+}
+.card-wrapper-4:hover .desc-4 p {
+    display: inline-block;
+    color: black;
+}
+.card-wrapper-4:hover .desc-4 h1 {
+    color: black;
+}
+
+.imgbox-4 {
+    display: flex;
+    position: relative;
+    transition: 0.5s;
+}
+.imgbox-4 img {
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.desc-4 {
+    text-align: center;
+    transition: 0.5s;
+}
+.desc-4 h1 {
+    color: #F4CE14;
+    transition: 0.5s;
+}
+
+
+.desc-4 p {
+    display: none;
+    text-align: start;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+/* Card 4 End */
+
+/* Dashed Line */
+.line-arrow-1 {
+    width: 300px;
+    position: relative;
+    display: flex;
+    bottom: 244px;
+    left: 18px;
+    z-index: -99999;
+    transform: rotate(210deg);
+}
+.line-arrow-2 {
+    width: 270px;
+    position: relative;
+    display: flex;
+    bottom: 235px;
+    left: 410px;
+    z-index: -9999;
+    transform: rotate(139deg);
+}
+.line-arrow-3 {
+    width: 350px;
+    position: relative;
+    display: flex;
+    bottom: 500px;
+    left: 688px;
+    z-index: -9999;
+    transform: rotate(180deg);
+}
+
+/* Dashed Line End */
 /* Home Section End */
 
 /* Kampang Team */
@@ -317,15 +484,16 @@ nav div img {
 #story {
     width: 100%;
     height: 100vh;
+    
 }
 .nav-story {
     width: 100%;
     height: 50px;
-    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
+    border-bottom: 1px solid #F4CE14;
 }
 .sort-list {
     margin-right: 100px;
@@ -373,8 +541,53 @@ nav div img {
     visibility: visible;
 }
 .sort-list a:hover {
-    background-color: rgba(0, 0, 0, 0.555);
     color: white;
+    background-color: rgba(0, 0, 0, 0.555);
 }
+.latest-story {
+    margin-top: 30px;
+    padding: 0 30px;
+}
+.latest-story:nth-child(2) {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+/* busines-story */
+.business-story {
+    width: 100%;
+    height: 500px;
+    margin-top: 45px;
+}
+.ruebe {
+    width: 260px;
+    height: 400px;
+    display: flex;
+    border: 5px solid rgb(99, 98, 98);
+    flex-direction: column;
+    align-items: center ;
+    gap: 15px;
+    background-color: rgb(99, 98, 98);
+    border-radius: 30px;
+}
+
+
+.business-img {
+    width: 220px;
+    height: 220px;
+}
+.business-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.business-desc {
+    text-align: center;
+}
+.business-desc p:last-child {
+    text-align: start;
+}
+/* busines-story end */
+/* What we do recently? */
 /* Section Story End */
 /* MAIN End */
