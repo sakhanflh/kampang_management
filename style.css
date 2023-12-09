@@ -642,7 +642,7 @@ nav div img {
 /* MAIN End */
 
 /* Media Query */
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
     * {
         user-select: none;
     }
@@ -662,6 +662,7 @@ nav div img {
     header h1 {
         display: block;
         padding-left: 10px;
+        font-size: 20px;
     }
     nav {
         display: none;
@@ -685,6 +686,7 @@ nav div img {
         transition: 0.7s ease-in-out;
         box-shadow: 2px 10px 10px #272727;
         background-color: black;
+        overflow-x: hidden;
     }
     .navbar-mobile ul {
         list-style-type: none;
@@ -702,5 +704,8 @@ nav div img {
     }
     .navbar-mobile.navbar-reveal {
         transform: translateX(0);
+    }
+    main {
+        overflow-x: hidden;
     }
 }
