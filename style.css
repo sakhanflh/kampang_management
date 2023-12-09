@@ -764,4 +764,83 @@ nav div img {
 }
 /* Nongkrong End*/
 /* Section Story End */
+/* Section Gallery */
+#gallery {
+    width: 100%;
+    height: 200vh;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 1%;
+    padding-top: 60px;
+}
+.gallery-container {
+    border-top: 1px solid #F4CE14;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.bandung {
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bandung-line-1 {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+/* img 1 */
+.bandung-img-1 {
+    width: 19%;
+    height: 100%;
+}
+.bandung-img-1 img {
+    width: 100%;
+    height: 100%;
+}
+/* img 2 */
+.bandung-img-2 {
+    width: 19%;
+    height: 100%;
+}
+.bandung-img-2 img {
+    width: 100%;
+    height: 100%;
+}
+/* img 3 */
+.bandung-img-3 {
+    width: 19%;
+    height: 100%;
+}
+.bandung-img-3 img {
+    width: 100%;
+    height: 100%;
+}
+/* img 4 */
+.bandung-img-4 {
+    width: 19%;
+    height: 100%;
+}
+.bandung-img-4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* img 5 */
+.bandung-img-5 {
+    width: 19%;
+    height: 100%;
+}
+.bandung-img-5 img {
+    width: 100%;
+    height: 100%;
+}
+/* Section Gallery End */
 /* MAIN End */
