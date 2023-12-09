@@ -708,4 +708,15 @@ nav div img {
     main {
         overflow-x: hidden;
     }
+    #home {
+        width: 100vw;
+        height: 100vh;
+        background-color: grey;
+        padding: 7rem 0%;
+    }
+    .home-left {
+        background-color: red;
+        flex-direction: column;
+        margin: -20px;
+    }
 }
