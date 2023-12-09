@@ -623,7 +623,145 @@ nav div img {
 }
 /* busines-story end */
 /* Nongkrong*/
+.nongkrong {
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.img-nongkrong-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
 
+}
+.img-nongkrong-1 {
+    width: 300px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    transition: 0.5s;
+}
+.img-nongkrong-1 img {
+    width: 100%;
+    position: relative;
+
+}
+.img-nongkrong-1 h1~p {
+    position: relative;
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+.img-nongkrong-1:hover h1~p{
+    display: inline-block;
+}
+.img-nongkrong-1:hover h1 {
+    color: #F4CE14;
+}
+.img-nongkrong-1:hover {
+    background-color: #252525;
+}
+/* nongki 2 */
+.img-nongkrong-2 {
+    width: 300px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    transition: 0.5s;
+}
+.img-nongkrong-2 img {
+    width: 100%;
+    position: relative;
+
+}
+.img-nongkrong-2 h1~p {
+    position: relative;
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+.img-nongkrong-2:hover h1~p{
+    display: inline-block;
+}
+.img-nongkrong-2:hover h1 {
+    color: #F4CE14;
+}
+.img-nongkrong-2:hover {
+    background-color: #252525;
+
+}
+/* nongkrong 3 */
+.img-nongkrong-3 {
+    width: 300px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    transition: 0.5s;
+}
+.img-nongkrong-3 img {
+    width: 100%;
+    position: relative;
+
+}
+.img-nongkrong-3 h1~p {
+    position: relative;
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+.img-nongkrong-3:hover h1~p{
+    display: inline-block;
+}
+.img-nongkrong-3:hover h1 {
+    color: #F4CE14;
+}
+.img-nongkrong-3:hover {
+    background-color: #252525;
+
+}
+/* nongkrong 4 */
+.img-nongkrong-4 {
+    width: 300px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    transition: 0.5s;
+}
+.img-nongkrong-4 img {
+    width: 100%;
+    position: relative;
+
+}
+.img-nongkrong-4 h1~p {
+    position: relative;
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+.img-nongkrong-4:hover h1~p{
+    display: inline-block;
+}
+.img-nongkrong-4:hover h1 {
+    color: #F4CE14;
+}
+.img-nongkrong-4:hover {
+    background-color: #252525;
+
+}
 /* Nongkrong End*/
 /* Section Story End */
 /* MAIN End */
