@@ -1033,4 +1033,79 @@ nav div img {
     /* Baris Ketiga End */
     /* OurTeam Mobile End */
 
+    /* Kampang Story */
+    #story {
+        width: 100vw;
+        height: 450vh;
+    }
+    .nav-story {
+        justify-content: space-between;
+        padding: 0.5rem 7%;
+        /* gap: 150px; */
+    }
+    .sort-list {
+        margin-right: 40px;
+    }
+    .sort-list ul {
+        margin-left: -39px;
+    }
+    /* Lates Story */
+    .business-story {
+        display: flex;
+        flex-direction: column;
+        /* width: 100vw; */
+        height: 400vw;
+        align-items: center;
+        gap: 15px;
+    }
+    .ruebe {
+        border-radius: 15px;
+        gap: 15px;
+    }
+    .business-desc {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    /* Kedua */
+    .goldchick {
+        border-radius: 15px;
+        gap: 15px;
+    }
+    /* Ketiga */
+
+    /* Keempat */
+
+    /* Terakhir Nongkrong */
+    .nongkrong {
+        height: 210vh;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .img-nongkrong-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .img-nongkrong-1 {
+        gap: 10px;
+    }
+    .img-nongkrong-2 {
+        gap: 10px;
+    }
+    .img-nongkrong-3 {
+        gap: 10px;
+    }
+    .img-nongkrong-4 {
+        gap: 10px;
+    }
+    /* Terakhir Nongkrong End */
+    /* Kampang Story End */
+    /* Section Gallery */
+    
+    /* Section Gallery End */
 }
