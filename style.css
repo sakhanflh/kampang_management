@@ -80,6 +80,9 @@ nav div img {
     padding-top: 10px;
     box-sizing: border-box;
 }
+.mobile-home {
+    display: none;
+}
 .home-container {
     width: 100%;
     height: 380px;
@@ -685,7 +688,7 @@ nav div img {
         position: fixed;
         margin-top: 863px;
         transform: translateX(400px);
-        transition: 0.7s ease-in-out;
+        transition: 0.4s ease-in-out;
         box-shadow: 2px 10px 10px #272727;
         background-color: black;
         overflow-x: hidden;
@@ -712,7 +715,7 @@ nav div img {
     }
     #home {
         width: 100vw;
-        height: 100vh;
+        height: 180vh;
         padding: 7rem 0%;
     }
     .home-left {
@@ -734,13 +737,62 @@ nav div img {
     .home-bottom {
         display: none;
     }
+    /* Mobile Home */
+    .mobile-home {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        width: 32rem 5%;
+        height: 900px;
+        flex-direction: column;
+        margin-top: 140px;
+        justify-content: space-around;
+    }
+    .dashed-mobile {
+        width: 20px;
+        height: 80px;
+        display: flex;
+        position: absolute;
+        z-index: -9;
+        transform: rotate(258deg);
+        margin-top: 150px;
+    }
+    .awal-mobile {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 270px;
+        background-color: grey;
+        align-items: center;
+        margin: 2rem 20%;
+        gap: 15px;
+    }
+    .awal-mobile img {
+        width: 100%;
+        height: 100%;
+    }
+    /* Sekarang */
+    .sekarang-mobile {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 270px;
+        background-color: grey;
+        align-items: center;
+        margin: 2rem 20%;
+        gap: 15px;
+    }
+    .sekarang-mobile img {
+        width: 100%;
+        height: 100%;
+    }
     /* Kampang Team */
     #kampang {
         display: none;
     }
     #ourTeamMobile {
         width: 100vw;
-        height: 200vh;
+        height: 400vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -769,7 +821,7 @@ nav div img {
     .containerMobile {
         position: relative;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1em;
         width: 100vw;
         height: 400px;
@@ -823,18 +875,18 @@ nav div img {
     }
 
     .containerMobile:has(.box-1-mobile:hover) {
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 2fr;
     }
 
     .containerMobile:has(.box-2-mobile:hover) {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 2fr;
     }
 
     /* Baris Kedua */
     .containerMobile-2 {
         position: relative;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1em;
         width: 100vw;
         height: 400px;
@@ -848,18 +900,114 @@ nav div img {
     }
 
     .containerMobile-2:has(.box-3-mobile:hover) {
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 2fr;
     }
 
     .containerMobile-2:has(.box-4-mobile:hover) {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 2fr;
     }
     /* Baris Kedua End */
+    .containerMobile-4 {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1em;
+        width: 100vw;
+        height: 400px;
+        transition: all 400ms;
+    }
+    .containerMobile-4:hover .boxMobile {
+        filter: grayscale(100%) opacity(24%);
+    }
+    .containerMobile-4 .boxMobile:hover {
+        filter: grayscale(0%) opacity(100%);
+    }
+
+    .containerMobile-4:has(.box-4-mobile:hover) {
+        grid-template-columns: 2fr;
+    }
+
+    .containerMobile-4:has(.box-4-mobile:hover) {
+        grid-template-columns: 2fr;
+    }
+    /* Baris Kelima */
+    .containerMobile-5 {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1em;
+        width: 100vw;
+        height: 400px;
+        transition: all 400ms;
+    }
+    .containerMobile-5:hover .boxMobile {
+        filter: grayscale(100%) opacity(24%);
+    }
+    .containerMobile-5 .boxMobile:hover {
+        filter: grayscale(0%) opacity(100%);
+    }
+
+    .containerMobile-5:has(.box-5-mobile:hover) {
+        grid-template-columns: 2fr;
+    }
+
+    .containerMobile-5:has(.box-5-mobile:hover) {
+        grid-template-columns: 2fr;
+    }
+    /* Baris Keenam */
+    .containerMobile-6 {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1em;
+        width: 100vw;
+        height: 400px;
+        transition: all 400ms;
+    }
+    .containerMobile-6:hover .boxMobile {
+        filter: grayscale(100%) opacity(24%);
+    }
+    .containerMobile-6 .boxMobile:hover {
+        filter: grayscale(0%) opacity(100%);
+    }
+
+    .containerMobile-6:has(.box-6-mobile:hover) {
+        grid-template-columns: 2fr;
+    }
+
+    .containerMobile-6:has(.box-6-mobile:hover) {
+        grid-template-columns: 2fr;
+    }
+    /* Baris Ketujuh */
+    .containerMobile-7 {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1em;
+        width: 100vw;
+        height: 400px;
+        transition: all 400ms;
+    }
+    .containerMobile-7:hover .boxMobile {
+        filter: grayscale(100%) opacity(24%);
+    }
+    .containerMobile-7 .boxMobile:hover {
+        filter: grayscale(0%) opacity(100%);
+    }
+
+    .containerMobile-7:has(.box-7-mobile:hover) {
+        grid-template-columns: 2fr;
+    }
+
+    .containerMobile-7:has(.box-7-mobile:hover) {
+        grid-template-columns: 2fr;
+    }
+
     /* Baris Ketiga  */
     .containerMobile-3 {
         position: relative;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1em;
         width: 100vw;
         height: 400px;
@@ -873,14 +1021,14 @@ nav div img {
     }
 
     .containerMobile-3:has(.box-5-mobile:hover) {
-        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-columns: 2fr;
     }
 
     .containerMobile-3:has(.box-6-mobile:hover) {
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 2fr;
     }
     .containerMobile-3:has(.box-7-mobile:hover) {
-        grid-template-columns: 1fr 1fr 2fr;
+        grid-template-columns: 2fr;
     }
     /* Baris Ketiga End */
     /* OurTeam Mobile End */
